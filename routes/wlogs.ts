@@ -1,6 +1,6 @@
-var express = require('express');
-var router = express.Router();
 
+import e from 'express'
+var router = e.Router();
 
 /* GET users listing. */
 router.post('/*', function(req, res, next) {
@@ -16,4 +16,6 @@ router.post('/*', function(req, res, next) {
 
 });
 
-module.exports = router;
+var wlogs = router;
+export { wlogs }
+
